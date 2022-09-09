@@ -101,6 +101,10 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="jW7-hG-2ax" firstAttribute="leading" secondItem="oKu-NC-qHS" secondAttribute="leading" constant="20" id="9vP-ia-MDq"/>
+                                    <constraint firstItem="tEe-oi-hmm" firstAttribute="leading" secondItem="jW7-hG-2ax" secondAttribute="trailing" constant="5" id="xUz-We-Lto"/>
+                                </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iE6-po-gTt">
                                 <rect key="frame" x="165" y="673.5" width="84.5" height="31"/>
@@ -111,7 +115,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Answer Here!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA8-CP-AUP">
-                                <rect key="frame" x="118" y="768" width="179" height="38.5"/>
+                                <rect key="frame" x="117.5" y="768.5" width="179" height="38.5"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
