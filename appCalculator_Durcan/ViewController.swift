@@ -79,15 +79,15 @@ class ViewController: UIViewController, UITextFieldDelegate{
         answerOutlet.text = "\(sum)"
     }
     @IBAction func divideButton(_ sender: UIButton) {
-        var number1: Int
-        var number2: Int
-        if let blah = Int(numberOutlet1.text!){
+        var number1: Double
+        var number2: Double
+        if let blah = Double(numberOutlet1.text!){
             number1 = blah
         }
         else{
             number1 = 0
         }
-        if let blah = Int(numberOutlet2.text!){
+        if let blah = Double(numberOutlet2.text!){
             number2 = blah
         }
         else{
